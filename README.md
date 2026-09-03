@@ -5,7 +5,7 @@ audio, edit ranges and clips across as many as ten tracks, apply effects, save a
 portable project, and export WAV or MP3 without sending source audio to an
 application server.
 
-Current release: **0.1.0**
+Current release: **0.2.0**
 
 [Open ZeroCross](https://97wobbler.github.io/zerocross/)
 
