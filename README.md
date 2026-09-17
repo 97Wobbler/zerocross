@@ -5,7 +5,7 @@ audio, edit ranges and clips across as many as ten tracks, apply effects, save a
 portable project, and export WAV or MP3 without sending source audio to an
 application server.
 
-Current release: **0.2.0**
+Current release: **0.2.1**
 
 [Open ZeroCross](https://97wobbler.github.io/zerocross/)
 
@@ -15,6 +15,7 @@ Current release: **0.2.0**
 - Provides waveform, range, clip, multitrack, Beat Grid, and silence-removal
   editing workflows.
 - Applies non-destructive Clip effects and destructive Range effects.
+- Records the browser's default microphone directly onto the active track.
 - Saves new projects as `.zcross` files and opens legacy `.myaudition` files.
 - Exports WAV and MP3 in the browser.
 - Keeps project editing, recovery, and export data in the browser or in files
@@ -23,9 +24,10 @@ Current release: **0.2.0**
 ## Browser support and limits
 
 The latest desktop Chrome is the primary supported browser. Large decoded audio
-and project files can use substantial memory. ZeroCross currently has no
-account, backend, cloud storage, collaboration, recording, microphone input, or
-third-party plug-in hosting.
+and project files can use substantial memory. Microphone recording requires
+browser permission and HTTPS or localhost. ZeroCross currently has no account,
+backend, cloud storage, collaboration, input monitoring, recording-device
+selection, or third-party plug-in hosting.
 
 ## Copyright and third-party material
 
